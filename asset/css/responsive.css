@@ -430,10 +430,12 @@
   .header__blog {
     display: none;
   }
-  
-  .header__menu-moblie {
-    margin-right: 60px;
+  .header__logo{
+    text-align: left;
   }
+  /* .header__menu-moblie {
+    margin-right: 60px;
+  } */
   .header__item-img img {
     width: 80%;
   }
@@ -566,5 +568,9 @@
   }
   .container__trial-social >img{
     display: none;
+  }
+  .header__menu-moblie {
+    justify-content: center;
+    margin-right: 5rem;
   }
 }
